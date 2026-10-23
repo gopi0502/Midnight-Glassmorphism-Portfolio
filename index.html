@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Midnight Glassmorphism Portfolio — Senior Full-Stack & Distributed Systems Engineer. Explore high-performance web applications, cloud architectures, and interactive case studies.">
+  <title>Alex Rivera | Senior Full-Stack & Systems Engineer</title>
+  
+  <!-- Google Fonts: Space Grotesk & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Ambient Midnight Glow Orbs -->
+  <div class="ambient-glow-container" aria-hidden="true">
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+    <div class="grid-mesh-overlay"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="glass-navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo">
+        <span class="logo-symbol">&lt;/&gt;</span>
+        <span class="logo-text">Alex<span class="highlight">.dev</span></span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-menu" id="navMenu">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Journey</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <div class="status-badge" title="Open to high-impact engineering opportunities">
+          <span class="status-pulse"></span>
+          <span class="status-text">Available for Hire</span>
+        </div>
+        <a href="#contact" class="glass-button btn-sm primary">Let's Talk</a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="section-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="badge-icon">⚡</span>
+            <span>Distributed Architectures &bull; Modern Micro-Frontends</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Architecting <span class="gradient-text">resilient systems</span> &amp; fluid digital experiences.
+          </h1>
+          
+          <p class="hero-description">
+            Hi, I'm <strong class="text-white">Alex Rivera</strong> — a Senior Full-Stack &amp; Systems Engineer crafting high-throughput distributed backends, cloud-native infrastructure, and glass-slick, interactive frontend web applications.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="glass-button primary">
+              <span>View Case Studies</span>
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 13l5 5 5-5M7 6l5 5 5-5"/></svg>
+            </a>
+            <a href="#contact" class="glass-button secondary">
+              <span>Initiate Contact</span>
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="glass-button icon-only" title="View GitHub">
+              <svg class="icon" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+
+          <!-- Glass Metrics Bar -->
+          <div class="metrics-grid">
+            <div class="metric-card glass-card">
+              <span class="metric-number" data-target="6">6+</span>
+              <span class="metric-label">Years of Experience</span>
+            </div>
+            <div class="metric-card glass-card">
+              <span class="metric-number" data-target="99.99">99.99%</span>
+              <span class="metric-label">Service SLA Upheld</span>
+            </div>
+            <div class="metric-card glass-card">
+              <span class="metric-number" data-target="35">35+</span>
+              <span class="metric-label">Production Microservices</span>
+            </div>
+            <div class="metric-card glass-card">
+              <span class="metric-number" data-target="15">15M+</span>
+              <span class="metric-label">Daily API Transactions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About & Engineering Philosophy Section -->
+    <section class="about-section" id="about">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-kicker">Core Identity</span>
+          <h2 class="section-title">Bridging architectural rigor with <span class="gradient-text">fluid visual design</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <!-- Terminal / Code Identity Card -->
+          <div class="glass-card terminal-card">
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="terminal-title">alex@systems-node:~</span>
+              <span class="terminal-badge">LIVE SESSION</span>
+            </div>
+            <div class="terminal-body">
+              <div class="terminal-line"><span class="cmd-prompt">&gt;</span> <span class="cmd-text">alex.getCurrentStatus()</span></div>
+              <div class="terminal-output">
+                <span class="json-bracket">{</span><br>
+                &nbsp;&nbsp;<span class="json-key">"role"</span>: <span class="json-str">"Senior Full-Stack &amp; Systems Engineer"</span>,<br>
+                &nbsp;&nbsp;<span class="json-key">"focus"</span>: <span class="json-str">"Distributed Systems, Event-Driven Queues, Fluid UI"</span>,<br>
+                &nbsp;&nbsp;<span class="json-key">"primaryLanguages"</span>: [<span class="json-str">"TypeScript"</span>, <span class="json-str">"Go"</span>, <span class="json-str">"Rust"</span>, <span class="json-str">"Python"</span>],<br>
+                &nbsp;&nbsp;<span class="json-key">"corePhilosophy"</span>: <span class="json-str">"Zero latency, bulletproof failover, elegant DX"</span>,<br>
+                &nbsp;&nbsp;<span class="json-key">"status"</span>: <span class="json-val-green">"Active &amp; Ready for Deployment"</span><br>
+                <span class="json-bracket">}</span>
+              </div>
+              <div class="terminal-line mt-3"><span class="cmd-prompt">&gt;</span> <span class="cmd-text blink">cat ~/.vision</span></div>
+              <p class="terminal-note">"Software should perform like a high-precision timepiece on the server and feel like pure silk on the screen."</p>
+            </div>
+          </div>
+
+          <!-- Feature Columns -->
+          <div class="about-features">
+            <div class="glass-card feature-box">
+              <div class="feature-icon-wrapper">
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+              </div>
+              <div>
+                <h3 class="feature-title">High-Scale Backend Systems</h3>
+                <p class="feature-desc">Building resilient microservices, gRPC protocols, Kafka pub-sub pipelines, and caching layers that easily sustain millions of active requests.</p>
+              </div>
+            </div>
+
+            <div class="glass-card feature-box">
+              <div class="feature-icon-wrapper">
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <div>
+                <h3 class="feature-title">Fluid Frontend &amp; Glassmorphism</h3>
+                <p class="feature-desc">Engineering reactive, accessible, 60fps web apps with bespoke CSS tokens, hardware-accelerated transforms, and clean state architectures.</p>
+              </div>
+            </div>
+
+            <div class="glass-card feature-box">
+              <div class="feature-icon-wrapper">
+                <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+              </div>
+              <div>
+                <h3 class="feature-title">Cloud Native &amp; Infrastructure as Code</h3>
+                <p class="feature-desc">Provisioning fault-tolerant Kubernetes clusters, automated CI/CD pipelines, Terraform stacks, and end-to-end distributed tracing telemetry.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Matrix -->
+    <section class="skills-section" id="skills">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-kicker">Technical Arsenal</span>
+          <h2 class="section-title">Mastered <span class="gradient-text">technologies &amp; frameworks</span></h2>
+          <p class="section-subtitle">Deep expertise across modern stacks, cloud providers, distributed databases, and high-performance protocols.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Card 1: Frontend & Micro-Frontends -->
+          <div class="glass-card skill-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon cyan">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+              </div>
+              <div>
+                <h3 class="skill-group-title">Frontend Engineering</h3>
+                <span class="skill-group-count">Modern Web &amp; UX</span>
+              </div>
+            </div>
+            <div class="skill-pill-container">
+              <span class="skill-pill"><span class="pill-dot"></span>React / Next.js</span>
+              <span class="skill-pill"><span class="pill-dot"></span>TypeScript</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Tailwind CSS</span>
+              <span class="skill-pill"><span class="pill-dot"></span>WebSockets / RTC</span>
+              <span class="skill-pill"><span class="pill-dot"></span>State Machines (Zustand)</span>
+              <span class="skill-pill"><span class="pill-dot"></span>WebGL / Three.js</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Progressive Web Apps</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Accessible Design (a11y)</span>
+            </div>
+          </div>
+
+          <!-- Card 2: Backend & Distributed Systems -->
+          <div class="glass-card skill-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon blue">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <div>
+                <h3 class="skill-group-title">Backend Architecture</h3>
+                <span class="skill-group-count">Scalable Distributed Services</span>
+              </div>
+            </div>
+            <div class="skill-pill-container">
+              <span class="skill-pill"><span class="pill-dot"></span>Go (Golang)</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Node.js / Bun</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Rust</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Python / FastAPI</span>
+              <span class="skill-pill"><span class="pill-dot"></span>gRPC / Protocol Buffers</span>
+              <span class="skill-pill"><span class="pill-dot"></span>GraphQL &amp; REST</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Apache Kafka</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Microservices Topology</span>
+            </div>
+          </div>
+
+          <!-- Card 3: Cloud, DevOps & Orchestration -->
+          <div class="glass-card skill-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon purple">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-group-title">Cloud &amp; DevOps</h3>
+                <span class="skill-group-count">Infrastructure as Code</span>
+              </div>
+            </div>
+            <div class="skill-pill-container">
+              <span class="skill-pill"><span class="pill-dot"></span>Kubernetes (K8s)</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Docker</span>
+              <span class="skill-pill"><span class="pill-dot"></span>AWS (EKS, Lambda, S3)</span>
+              <span class="skill-pill"><span class="pill-dot"></span>GCP / BigQuery</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Terraform</span>
+              <span class="skill-pill"><span class="pill-dot"></span>GitHub Actions / CI</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Prometheus &amp; Grafana</span>
+              <span class="skill-pill"><span class="pill-dot"></span>OpenTelemetry</span>
+            </div>
+          </div>
+
+          <!-- Card 4: Databases & Storage Layers -->
+          <div class="glass-card skill-card">
+            <div class="skill-card-header">
+              <div class="skill-category-icon emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <div>
+                <h3 class="skill-group-title">Data &amp; Persistence</h3>
+                <span class="skill-group-count">Transactional &amp; Analytical</span>
+              </div>
+            </div>
+            <div class="skill-pill-container">
+              <span class="skill-pill"><span class="pill-dot"></span>PostgreSQL</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Redis / KeyDB</span>
+              <span class="skill-pill"><span class="pill-dot"></span>ClickHouse (OLAP)</span>
+              <span class="skill-pill"><span class="pill-dot"></span>MongoDB</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Prisma ORM</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Elasticsearch</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Database Sharding</span>
+              <span class="skill-pill"><span class="pill-dot"></span>Zero-Downtime Migration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Projects Showcase Section -->
+    <section class="projects-section" id="projects">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-kicker">Portfolio Works</span>
+          <h2 class="section-title">Selected <span class="gradient-text">engineering initiatives</span></h2>
+          <p class="section-subtitle">A curated compilation of full-stack platforms, distributed systems, and developer tools shipped to production.</p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="filter-bar">
+          <button class="filter-btn active" data-filter="all">All Projects <span class="filter-count">6</span></button>
+          <button class="filter-btn" data-filter="fullstack">Full-Stack <span class="filter-count">3</span></button>
+          <button class="filter-btn" data-filter="backend">Backend &amp; Cloud <span class="filter-count">2</span></button>
+          <button class="filter-btn" data-filter="systems">DevOps &amp; Systems <span class="filter-count">1</span></button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="projects-grid" id="projectsGrid">
+          
+          <!-- Project 1: NexusCloud -->
+          <article class="glass-card project-card" data-category="backend" data-id="nexuscloud">
+            <div class="project-header">
+              <div class="project-badges">
+                <span class="category-tag">Backend &amp; Cloud</span>
+                <span class="highlight-tag">Production Ready</span>
+              </div>
+              <span class="project-date">2026</span>
+            </div>
+            
+            <div class="project-preview-mockup">
+              <div class="mockup-screen">
+                <div class="mockup-header-bar">
+                  <div class="dots"><span class="d1"></span><span class="d2"></span><span class="d3"></span></div>
+                  <span class="screen-title">nexus-telemetry.cluster.internal</span>
+                </div>
+                <div class="mockup-content-telemetry">
+                  <div class="chart-line"></div>
+                  <div class="telemetry-stats">
+                    <span class="stat-pill">INGEST: 420k msg/s</span>
+                    <span class="stat-pill success">P99: 1.8ms</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">NexusCloud Telemetry</h3>
+              <p class="project-desc">Distributed real-time log ingestion and metrics aggregation engine designed to process half a million events per second with sub-2ms latency.</p>
+              
+              <div class="tech-tags">
+                <span class="tech-tag">Go</span>
+                <span class="tech-tag">Kafka</span>
+                <span class="tech-tag">ClickHouse</span>
+                <span class="tech-tag">Docker</span>
+                <span class="tech-tag">gRPC</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <button class="glass-button btn-sm primary view-case-study" data-project="nexuscloud">
+                Case Study
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+              <div class="project-ext-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-icon" title="View Source on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: AetherPay -->
+          <article class="glass-card project-card" data-category="fullstack" data-id="aetherpay">
+            <div class="project-header">
+              <div class="project-badges">
+                <span class="category-tag">Full-Stack</span>
+                <span class="highlight-tag">Fintech</span>
+              </div>
+              <span class="project-date">2025</span>
+            </div>
+
+            <div class="project-preview-mockup">
+              <div class="mockup-screen">
+                <div class="mockup-header-bar">
+                  <div class="dots"><span class="d1"></span><span class="d2"></span><span class="d3"></span></div>
+                  <span class="screen-title">aetherpay.terminal.io</span>
+                </div>
+                <div class="mockup-content-finance">
+                  <div class="finance-badge">SETTLED: $2.4M (24h)</div>
+                  <div class="progress-bar-glow"><div class="fill" style="width: 88%;"></div></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">AetherPay Settlement Engine</h3>
+              <p class="project-desc">High-frequency distributed escrow and fiat-to-token settlement portal featuring sub-5ms transaction reconciliation, double-entry ledgers, and real-time frontend dashboard.</p>
+              
+              <div class="tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">Rust</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Redis</span>
+                <span class="tech-tag">WebSockets</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <button class="glass-button btn-sm primary view-case-study" data-project="aetherpay">
+                Case Study
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+              <div class="project-ext-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-icon" title="View Source on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: PrismAI Studio -->
+          <article class="glass-card project-card" data-category="fullstack" data-id="prismai">
+            <div class="project-header">
+              <div class="project-badges">
+                <span class="category-tag">Full-Stack</span>
+                <span class="highlight-tag">AI / Multimodal</span>
+              </div>
+              <span class="project-date">2025</span>
+            </div>
+
+            <div class="project-preview-mockup">
+              <div class="mockup-screen">
+                <div class="mockup-header-bar">
+                  <div class="dots"><span class="d1"></span><span class="d2"></span><span class="d3"></span></div>
+                  <span class="screen-title">prism-ai.studio/canvas</span>
+                </div>
+                <div class="mockup-content-ai">
+                  <div class="ai-node">PROMPT: Synthesis</div>
+                  <div class="ai-arrow">➔</div>
+                  <div class="ai-node-glow">RENDER: 4K Ultra</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">PrismAI Generative Studio</h3>
+              <p class="project-desc">Multimodal creative workspace unifying real-time diffusion pipelines, interactive node canvas, and asset management with fluid WebGL rendering.</p>
+              
+              <div class="tech-tags">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">FastAPI</span>
+                <span class="tech-tag">PyTorch</span>
+                <span class="tech-tag">Tailwind</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <button class="glass-button btn-sm primary view-case-study" data-project="prismai">
+                Case Study
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+              <div class="project-ext-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-icon" title="View Source on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 4: HyperMesh -->
+          <article class="glass-card project-card" data-category="fullstack" data-id="hypermesh">
+            <div class="project-header">
+              <div class="project-badges">
+                <span class="category-tag">Full-Stack</span>
+                <span class="highlight-tag">WebAssembly</span>
+              </div>
+              <span class="project-date">2024</span>
+            </div>
+
+            <div class="project-preview-mockup">
+              <div class="mockup-screen">
+                <div class="mockup-header-bar">
+                  <div class="dots"><span class="d1"></span><span class="d2"></span><span class="d3"></span></div>
+                  <span class="screen-title">mesh-canvas.app/live</span>
+                </div>
+                <div class="mockup-content-crdt">
+                  <span class="crdt-badge">CRDT SYNCED</span>
+                  <div class="peer-avatars">
+                    <span class="peer-dot p1"></span>
+                    <span class="peer-dot p2"></span>
+                    <span class="peer-dot p3"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">HyperMesh Collaborative Engine</h3>
+              <p class="project-desc">Conflict-free replicated data type (CRDT) canvas allowing hundreds of concurrent engineers to edit complex architectural diagrams with zero server conflicts.</p>
+              
+              <div class="tech-tags">
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">WebAssembly</span>
+                <span class="tech-tag">WebRTC</span>
+                <span class="tech-tag">Node.js</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <button class="glass-button btn-sm primary view-case-study" data-project="hypermesh">
+                Case Study
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+              <div class="project-ext-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-icon" title="View Source on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 5: KubePulse -->
+          <article class="glass-card project-card" data-category="systems" data-id="kubepulse">
+            <div class="project-header">
+              <div class="project-badges">
+                <span class="category-tag">DevOps &amp; Systems</span>
+                <span class="highlight-tag">Cloud Native</span>
+              </div>
+              <span class="project-date">2024</span>
+            </div>
+
+            <div class="project-preview-mockup">
+              <div class="mockup-screen">
+                <div class="mockup-header-bar">
+                  <div class="dots"><span class="d1"></span><span class="d2"></span><span class="d3"></span></div>
+                  <span class="screen-title">kubepulse-agent v2.4</span>
+                </div>
+                <div class="mockup-content-k8s">
+                  <div class="k8s-pod green">POD: api-gateway (HEALTHY)</div>
+                  <div class="k8s-pod green">POD: telemetry-worker (3x)</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">KubePulse Cluster Autopilot</h3>
+              <p class="project-desc">Intelligent predictive pod auto-scaler and spot-instance arbiter for AWS EKS, reducing monthly infrastructure spend by 38% without compromising SLA.</p>
+              
+              <div class="tech-tags">
+                <span class="tech-tag">Go</span>
+                <span class="tech-tag">Kubernetes</span>
+                <span class="tech-tag">Prometheus</span>
+                <span class="tech-tag">AWS EKS</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <button class="glass-button btn-sm primary view-case-study" data-project="kubepulse">
+                Case Study
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+              <div class="project-ext-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-icon" title="View Source on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 6: Synthetix UI -->
+          <article class="glass-card project-card" data-category="backend" data-id="synthetix">
+            <div class="project-header">
+              <div class="project-badges">
+                <span class="category-tag">Backend &amp; Cloud</span>
+                <span class="highlight-tag">Distributed Caching</span>
+              </div>
+              <span class="project-date">2023</span>
+            </div>
+
+            <div class="project-preview-mockup">
+              <div class="mockup-screen">
+                <div class="mockup-header-bar">
+                  <div class="dots"><span class="d1"></span><span class="d2"></span><span class="d3"></span></div>
+                  <span class="screen-title">synthetix.cache-node</span>
+                </div>
+                <div class="mockup-content-cache">
+                  <span class="cache-hit">HIT RATIO: 99.4%</span>
+                  <span class="cache-memory">RAM: 12.4 GB</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Synthetix Edge Cache Proxy</h3>
+              <p class="project-desc">Lightweight distributed in-memory cache proxy written in Go with consistent hashing, automatic stale-while-revalidate invalidation, and TLS termination.</p>
+              
+              <div class="tech-tags">
+                <span class="tech-tag">Go</span>
+                <span class="tech-tag">Redis</span>
+                <span class="tech-tag">Consistent Hashing</span>
+                <span class="tech-tag">TLS</span>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <button class="glass-button btn-sm primary view-case-study" data-project="synthetix">
+                Case Study
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </button>
+              <div class="project-ext-links">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="link-icon" title="View Source on GitHub">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Career Experience & Milestones Section -->
+    <section class="experience-section" id="experience">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-kicker">Track Record</span>
+          <h2 class="section-title">Engineering journey &amp; <span class="gradient-text">leadership</span></h2>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Item 1 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Lead Distributed Systems Architect</h3>
+                  <span class="timeline-company">Aether Labs &bull; San Francisco / Remote</span>
+                </div>
+                <span class="timeline-badge">2024 — PRESENT</span>
+              </div>
+              <p class="timeline-text">
+                Spearheaded the migration of legacy monoliths to event-driven Go microservices running on EKS. Reduced infrastructure overhead by 42% while improving API throughput from 8k to 85k requests per second. Mentored an engineering squad of 14 across frontend and backend disciplines.
+              </p>
+              <div class="timeline-chips">
+                <span>Go</span>
+                <span>Kubernetes</span>
+                <span>Event Sourcing</span>
+                <span>Team Leadership</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Senior Full-Stack Engineer</h3>
+                  <span class="timeline-company">HyperScale Tech &bull; New York</span>
+                </div>
+                <span class="timeline-badge">2022 — 2024</span>
+              </div>
+              <p class="timeline-text">
+                Designed and rolled out customer-facing real-time financial tracking applications using React, TypeScript, and Redis. Engineered zero-downtime database migration strategy for 80M+ row PostgreSQL tables.
+              </p>
+              <div class="timeline-chips">
+                <span>React / Next.js</span>
+                <span>TypeScript</span>
+                <span>PostgreSQL</span>
+                <span>WebSockets</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="glass-card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Software Engineer</h3>
+                  <span class="timeline-company">Nova Dynamics</span>
+                </div>
+                <span class="timeline-badge">2020 — 2022</span>
+              </div>
+              <p class="timeline-text">
+                Implemented core REST &amp; GraphQL APIs, automated Docker CI/CD pipelines, and built high-performance responsive frontend portals with modern CSS component frameworks.
+              </p>
+              <div class="timeline-chips">
+                <span>Node.js</span>
+                <span>Docker</span>
+                <span>GraphQL</span>
+                <span>Tailwind</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Collaboration Section -->
+    <section class="contact-section" id="contact">
+      <div class="section-container">
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <span class="section-kicker">Get in Touch</span>
+            <h2 class="contact-title">Let's build something <span class="gradient-text">exceptional</span> together.</h2>
+            <p class="contact-subtitle">
+              Whether you need a lead systems architect for an ambitious infrastructure rebuild, a high-fidelity frontend platform, or engineering consulting, I'm always open to discussing compelling challenges.
+            </p>
+
+            <div class="quick-contact-card glass-card">
+              <div class="qc-row">
+                <div class="qc-icon cyan">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div>
+                  <span class="qc-label">Direct Email</span>
+                  <div class="email-copy-wrapper">
+                    <span class="qc-value" id="emailText">alex.rivera.dev@gmail.com</span>
+                    <button class="copy-btn" id="copyEmailBtn" title="Copy to clipboard">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="qc-row">
+                <div class="qc-icon blue">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div>
+                  <span class="qc-label">Timezone &amp; Availability</span>
+                  <span class="qc-value">UTC-5 (EST) &bull; Worldwide Remote</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Links -->
+            <div class="social-pills">
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-link glass-card" title="GitHub">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+                <span>GitHub</span>
+              </a>
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-link glass-card" title="LinkedIn">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-link glass-card" title="Twitter / X">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                <span>X / Twitter</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form Glass Card -->
+          <div class="glass-card contact-form-card">
+            <h3 class="form-title">Send a Direct Transmission</h3>
+            <p class="form-subtitle">Messages are queued and responded to within 12-24 business hours.</p>
+
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-group">
+                <label for="nameInput">Full Name / Organization</label>
+                <div class="input-glass-wrapper">
+                  <input type="text" id="nameInput" required placeholder="Elena Rostova (Meta/Stripe)">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="emailInput">Email Address</label>
+                <div class="input-glass-wrapper">
+                  <input type="email" id="emailInput" required placeholder="elena@company.com">
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="projectType">Inquiry Focus</label>
+                <div class="input-glass-wrapper select-wrapper">
+                  <select id="projectType">
+                    <option value="systems-architecture">Distributed Systems &amp; Backend</option>
+                    <option value="fullstack-app">Full-Stack Application Development</option>
+                    <option value="frontend-design">High-Fidelity Frontend &amp; Glass UI</option>
+                    <option value="cloud-devops">Cloud Infrastructure &amp; Kubernetes</option>
+                    <option value="consulting">Advisory / Architectural Audit</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="messageInput">Project Brief &amp; Goals</label>
+                <div class="input-glass-wrapper">
+                  <textarea id="messageInput" rows="4" required placeholder="Tell me about your tech stack, system requirements, and timeline..."></textarea>
+                </div>
+              </div>
+
+              <button type="submit" class="glass-button primary submit-btn" id="submitBtn">
+                <span class="btn-text">Dispatch Message</span>
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Project Case Study Modal -->
+  <div class="glass-modal-backdrop" id="projectModal" aria-hidden="true" role="dialog">
+    <div class="glass-modal-container glass-card">
+      <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close Case Study Modal">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div class="modal-header">
+        <div class="modal-badge-group">
+          <span class="category-tag" id="modalCategory">Category</span>
+          <span class="highlight-tag" id="modalStatus">Production</span>
+        </div>
+        <h2 class="modal-title" id="modalTitle">Project Title</h2>
+        <p class="modal-tagline" id="modalTagline">One-line system summary</p>
+      </div>
+
+      <div class="modal-body">
+        <div class="modal-section">
+          <h4 class="modal-heading">Architecture &amp; System Purpose</h4>
+          <p class="modal-text" id="modalOverview">Detailed system overview text will be loaded here dynamically.</p>
+        </div>
+
+        <div class="modal-section">
+          <h4 class="modal-heading">Production Performance Metrics</h4>
+          <div class="modal-metrics-grid" id="modalMetrics">
+            <!-- Dynamically populated metrics -->
+          </div>
+        </div>
+
+        <div class="modal-section">
+          <h4 class="modal-heading">Core Engineering Challenges Overcome</h4>
+          <ul class="modal-bullets" id="modalChallenges">
+            <!-- Dynamically populated bullets -->
+          </ul>
+        </div>
+
+        <div class="modal-section">
+          <h4 class="modal-heading">Technologies Utilized</h4>
+          <div class="tech-tags" id="modalTechTags">
+            <!-- Dynamically populated tags -->
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="glass-button secondary" id="modalRepoBtn">
+          <svg class="icon-sm" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+          <span>Repository</span>
+        </a>
+        <button class="glass-button primary" id="modalDismissBtn">Done Reading</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notification" id="toastNotification" role="alert" aria-live="polite">
+    <div class="toast-content">
+      <svg class="toast-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      <span class="toast-message" id="toastMessage">Action completed successfully.</span>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="glass-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <span class="footer-logo">&lt;/&gt; Alex.dev</span>
+        <span class="footer-copyright">&copy; 2026 Alex Rivera. Built with Vanilla Glassmorphism &amp; Modern Web Standards.</span>
+      </div>
+      <div class="footer-right">
+        <div class="footer-status">
+          <span class="status-pulse"></span>
+          <span>All production clusters operating nominally</span>
+        </div>
+        <a href="#hero" class="back-to-top" aria-label="Return to top of page">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
